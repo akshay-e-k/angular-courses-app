@@ -1,0 +1,31 @@
+.courses {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15rem;
+}
+.courses li {
+    position: relative;
+    cursor: pointer;
+    background-color: #eee;
+    margin: 1em;
+    padding: 0;
+    height: 3em;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px #ccc;
+}
+.courses li:hover {
+    background-color: #ccc;
+}
+.badge {
+    display: inline-block;
+    min-width: 0.5rem;
+    padding: 16px 12px;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #d02928;
+    color: #ffffff;
+    margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+<h2>Top Courses</h2>
+<div class="grid grid">
+    <a *ngFor="let course of courses" class="col-1-4" routerLink="/detail/{{course.id}}">
+        <div *ngIf="course.top === true" class="module">
+            <h4>{{course.name}}</h4>
+        </div>
+    </a>
+</div>
